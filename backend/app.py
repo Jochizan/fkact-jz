@@ -8,6 +8,8 @@ app.config['MONGO_URI'] = 'mongodb://localhost/py-react-db'
 
 mongo = PyMongo(app)
 
+CORS(app)
+
 db = mongo.db.users
 
 
