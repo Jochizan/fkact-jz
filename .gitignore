@@ -1,0 +1,10 @@
+# python venv
+packages
+
+# cache
+__pycache__
+
+# configuration files
+.idea
+.xml
+.iml
